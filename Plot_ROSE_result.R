@@ -3,7 +3,7 @@
 library(ggplot2)
 library(grid) # for arrow function
 # read parsed ROSE results 
-df <- read.table(file="./ROSE_results.txt",header=T,sep="\t")
+df <- read.table(file="./ROSE_results_P4_ventricle_H3K27ac.txt.txt",header=T,sep="\t")
 # ==================
 pdf(file="./superEnhancer_plot_annotated.pdf")
 # do the plotting
